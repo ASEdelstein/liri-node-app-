@@ -28,10 +28,14 @@ request(' http://www.omdbapi.com/?i=tt3896198&apikey=dde7a2ab', function (error,
 
 //create functions to retrieve tweets, music, movies
 //Make it so liri.js can take in one of the following commands:
-* `my-tweets`
+ `my-tweets`
 
-* `spotify-this-song`
+`spotify-this-song`
+// Artist(s)
+// The song's name
+// A preview link of the song from Spotify
+// The album that the song is from
 
-* `movie-this`
+ `movie-this`
 
-* `do-what-it-says`
+`do-what-it-says`
