@@ -21,3 +21,17 @@ request(' http://www.omdbapi.com/?i=tt3896198&apikey=dde7a2ab', function (error,
   console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
   console.log('body:', body); // Print the HTML for the Google homepage.
 });
+
+//capture user input for twitter
+//capture user input for spotify
+//capture user input for omdb
+
+//create functions to retrieve tweets, music, movies
+//Make it so liri.js can take in one of the following commands:
+* `my-tweets`
+
+* `spotify-this-song`
+
+* `movie-this`
+
+* `do-what-it-says`
